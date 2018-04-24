@@ -1,0 +1,7 @@
+[package]
+name = "bug"
+version = "0.1.0"
+authors = ["Slava Shklyaev <slava@slava.sh>"]
+
+[dependencies]
+goldenfile = "0.5"
