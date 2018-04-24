@@ -6,7 +6,7 @@ use std::io::Write;
 use goldenfile::Mint;
 
 fn create_file() {
-    let mut file = File::create("test").expect("create filed");
+    let mut file = File::create("test").expect("create failed");
     file.write(b"data").expect("write failed");
 }
 
